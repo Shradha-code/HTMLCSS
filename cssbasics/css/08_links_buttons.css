@@ -1,0 +1,38 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #333;
+    /* to remove underline below links */
+    text-decoration: none; 
+}
+
+a:hover {
+    color: burlywood;
+    text-decoration: underline;
+}
+
+/* a:visited {
+    color: red;
+} */
+
+a:active {
+    color: red;
+}
+
+.btn {
+    background: #4c6ca0;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* on hover show curser */
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #f4f4f4;
+    background: rgb(184, 23, 90);
+}

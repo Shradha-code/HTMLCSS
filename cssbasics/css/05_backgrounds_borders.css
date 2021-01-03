@@ -1,0 +1,35 @@
+#box-1 {
+    background-color: blanchedalmond;
+    /* border-width: 3px;
+    border-color: red;
+    border-style: solid;
+ */
+ border: 3px solid red;
+ /* for curved border */
+ border-radius: 10px;  /* this is included in css3*/
+}
+
+#box-2 {
+    background: #333333;
+    color: #fff;
+    border-top: 2px solid blue;
+    /* border-top-left-radius: 10px; */
+    border-radius: 10px; /* it is not mandatory to have border property to provide border radius*/
+}
+
+#box-3 {
+    color: red;
+    background-image: url('../images/panda.jpg');
+    background-repeat: no-repeat; /*by default it is set to repeat*/
+    background-position: center top; /*to position background image*/
+    background-size: cover; /*the entire image is shown in available size irrespective of actual image size*/
+    background: url('../images/panda.jpg') no-repeat center center/cover;
+    /* background : background-image background-repeat background-position/background-size  */
+    width: 300px;
+    height: 300px;
+}
+
+#box-4 {
+    background: url('../images/handshake.png') no-repeat center center;
+    background-attachment: fixed;
+}

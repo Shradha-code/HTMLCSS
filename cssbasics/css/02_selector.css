@@ -1,0 +1,38 @@
+
+/* applies to all h3 elements present on the screen */
+h3 {
+    color: green;
+}
+
+/* ID selector */
+#green_heading {
+    color: green;
+}
+
+#welcome {
+    background-color: cadetblue;
+}
+/* class Selector */
+.primary_heading {
+    color: blue;
+}
+
+/* multiplae selector */
+
+#welcome, #about{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* nested selector */
+#welcome p {
+    font-size: 20px;
+}
+
+/* element selector */
+
+body {
+    background-color: cornsilk;
+}
+

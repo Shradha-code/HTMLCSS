@@ -1,0 +1,22 @@
+li {
+    display: inline;
+}
+
+li a {
+    padding-right: 20px;
+}
+
+img {
+    display: block;
+    /* we can not use margin:auto to dispaly inline elements at center */
+    margin: auto;
+}
+
+.box {
+    display: inline-block;
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 32%;
+    box-sizing: border-box;
+}

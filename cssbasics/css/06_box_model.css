@@ -1,0 +1,43 @@
+
+/* CSS Reset the default css of browser*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background: #f4f4f4;
+    border: 2px solid #000000;
+    width: 500px;
+
+    /* padding on all side */
+    padding: 20px;
+
+    /* padding per side  */
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+
+    /* padding shorthand = top, right, bottom, left */
+    padding: 10px 20px 15px 25px;
+
+    /* padding shorthand top = bottom and left=right  */
+    padding: 10px 20px;
+
+    /* margin on all sides */
+    margin: 20px;
+
+     /* margin per side  */
+     margin-top: 10px;
+     margin-right: 20px;
+     margin-bottom: 15px;
+     margin-left: 25px;
+ 
+     /* margin shorthand = top, right, bottom, left */
+     margin: 10px 20px 15px 25px;
+ 
+     /* margin shorthand top = bottom and left=right  */
+     margin: 10px 20px;
+}

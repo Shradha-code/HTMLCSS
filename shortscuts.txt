@@ -1,0 +1,6 @@
+shift+alt+down arrow => copy the content of line to next line
+alt+arror => move current line 
+ctrl+D => to select the next text matching the selected text
+
+
+div#idValue then tab creates div with id set to idValue
