@@ -1,0 +1,40 @@
+li {
+    padding: .25rem;
+    margin: .25rem;
+    list-style: none;
+}
+
+/* first child */
+li:first-child {
+    background: red;
+}
+
+/* last child */
+li:last-child {
+    background: red;
+}
+
+/* position 3 child */
+li:nth-child(3){
+    background: purple !important;
+}
+
+/* every 3rd child starting frpm 0 indexi.e child multipler of 3 */
+li:nth-child(3n) {
+    background: orange;
+}
+
+/*  evry 3rd child after 7th child*/
+li:nth-child(3n+7) {
+    background: yellowgreen;
+}
+
+/* every odd */
+li:nth-child(odd) {
+    background: violet;
+}
+
+/* every even */ 
+li:nth-child(even) {
+    background: teal;
+}

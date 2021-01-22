@@ -1,0 +1,25 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+
+h1.a{
+    /* h-shadow v-shadow color */
+    text-shadow: 0.2rem 0.2rem steelblue;
+}
+
+h1.b {
+    /* h-shadow v-shadow blur color */
+    text-shadow: 0.4rem 0.3rem 0.7rem orangered; 
+}
+
+h1.c{
+    /* white text */
+    color: #ffffff;
+    text-shadow: 0.2rem 0.2rem 1rem black;
+}
+
+h1.d {
+    /* negative values */
+    text-shadow: -0.4rem -0.3rem 0.7rem orangered; 
+}

@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    background: chocolate;
+ display: flex;
+ flex-direction: row;
+ /* align-items property is set on flex container and not on flex element */
+ /* align-items is applied on cross axis */
+align-items: center;
+/* align-items: stretch; stretches the element to height of container */
+/* justify-content is applied on main axis i.e for row it is horizontally and for column it is vertical */
+justify-content: center;
+height: 50vh;
+
+}
+
+
+.item {
+    background: cadetblue;
+    border: 2px solid #cccccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    /* width: 200px; */
+    /* flex: flex-grow flex-shrink flex-basis; */
+    /* flex: 1; */
+
+}
+
+.item1 {
+    /* align-self is applied on individual flex element */
+    align-self: flex-start;
+}
+
+.item3 {
+    align-self: flex-end;
+}

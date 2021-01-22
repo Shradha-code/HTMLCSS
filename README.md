@@ -110,3 +110,63 @@ STICKY: Positioned based on scroll position
 class css takes the higher precedence that the direct element css
 
 Padding can not have -ve values. if given then also there will be no effect of those values.
+
+
+em : unit is relative/multiplier of the parent font size/ parent container
+rem : unit is relative/multiplier of font size of the root html element
+
+
+By default the html root element font size will always be 16px unless manually changed.
+
+
+
+            FlexBox
+
+* Flexbox was introduced in css3
+* flex is a value for display property
+* Aligns item horizontally(row) and verticaly(column)
+* Flex items can be reorder via css
+* display: flex :::: creates a flex container
+* all direct child elements are "flex items"
+* by default all the child elements inside the flex container will be aligned horizontally .
+* to align items vertically in flex container we can set flex-direction.
+
+   Flex Properties
+
+  * justify-content : align along main axis (horizontally)
+  * align-items : Align items along the cross axis(vertically)
+  * align-content : align when extra space in cross axis
+
+
+align-items property is set on flex container and not on flex element
+
+ align-items is applied on cross axis
+
+ justify-content is applied on main axis i.e for row it is horizontally and for column it is vertical 
+
+
+ to open link in new tab set target="_blank"
+ to open link in same tab set target="_Self"
+
+
+
+ CSS GRID
+
+  * css grid is 2-dimensional layout
+  * css grid is more powerful than css flex
+  * grid-template-columns : defines the number of columns and width
+  
+
+  The main difference between flex and grid is
+   -> Flexbox is 1-dimensional layout mainly used in places like navbar
+     * used for simple alignments like menu items, inner elements etc.
+   -> grid is 2-dimesinal layout
+      *   used for outer elements, like boxes, grid like layouts
+
+while using grid layout we usually use new convention fr (fraction) i.e fraction of the page
+
+
+* to add gap between the grid elements we use grid-gap property
+
+ In grid layout If we want all the elemnts in the column to be of same size then we can use repeat(numberOfElemnts, sizeOfElements) 
+

@@ -1,0 +1,23 @@
+#box1{
+    font-size: 20px;
+}
+
+#box1 p {
+    font-size: 1.5em;
+    /* font size will be 30px bcz it is 1.5*20.
+     as 20px is font size of parent element */
+} 
+
+/* to change html root element font size */
+html{
+    font-size: 10px;
+}
+
+#box2 h3 {
+    font-size: 2rem;
+}
+
+#box2 p {
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+}

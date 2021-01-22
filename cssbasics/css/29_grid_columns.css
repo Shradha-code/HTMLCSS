@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    /* grid-template-columns: 200px auto 200px; */
+    /* grid-template-columns: auto auto auto; */
+   
+   /* If we want all the elemnts in the column to be of same size then we can use repeat(numberOfElemnts, sizeOfElements) */
+    /* grid-template-columns: repeat(3, auto);   */
+
+    grid-template-columns: 1fr 2fr 1fr;
+
+    /* to add gap between the grid elements we use grid-gap property */
+    grid-gap: 1rem;
+}
+
+.item {
+    padding: 3rem;
+    border: 1px solid #cccccc;
+    background: #f4f4f4;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1.5rem;
+}

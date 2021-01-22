@@ -1,0 +1,25 @@
+/* Direct child >  */
+div > p {
+    background: #dddddd;
+}
+
+/* Directly after i.e elements at the same level or sibling elements (+)  */
+div + p {
+    background: #333333;
+    color: #ffffff;
+}
+
+/* By attributes */
+
+a[target] {
+    background: #ff0000;
+    color: #ffffff;
+}
+
+/* specific Attribute values */
+
+input[type='text'],
+input[type='email'] {
+    width: 100%;
+    margin-bottom: 5px;
+}

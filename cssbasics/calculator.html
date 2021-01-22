@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <header>
+        <img src="https://images.app.goo.gl/4RtNSVs8vPvXg9f27" alt="Calculator Image" height="300" width="400">
+    </header>
+    <form>
+        <div>
+            <label for="Input1">Input1</label>
+            <input type="number" name="Input1" id="input1">
+        </div>
+    <div>
+            <label for="Input2">Input2</label>
+            <input type="number" name="Input1" id="input2">
+        </div>
+    <div>
+            <label for="Select Operation">Select Operation</label>
+            <select name="Operation" id="Operation">
+                <option value="Add">Add</option>
+                <option value="Subtract">Subtract</option>
+                <option value="Multiply">Multiply</option>
+                <option value="Divide">Divide</option>
+            </select>
+        </div>
+            <br>
+           <input type="image" src="./images/panda.jpg" alt="Submit" onclick="myFunction()" width="80">
+          <input type="image" src="./images/minions.jpg" alt="Reset" width="80">
+
+    </form>
+
+    <script>
+        function myFunction() {
+          var num1 = Number(document.getElementById("input1").value);
+          var num2 = Number(document.getElementById("input2").value);
+          var opt = document.getElementById("Operation");
+
+          if(opt=="Add"){
+              alert(num1+num2)
+          } else if(opt=="Subtract"){
+              alert(num1-num2)
+          } else if(opt=="Multiply"){
+              alert(num1*num2)
+          } else if(opt=="Divide"){
+              alert(num1/num2)
+          }
+        }
+        </script>
+</body>
+</html>
