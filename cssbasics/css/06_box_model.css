@@ -41,3 +41,7 @@
      /* margin shorthand top = bottom and left=right  */
      margin: 10px 20px;
 }
+
+.box1 span {
+    color: green
+}
